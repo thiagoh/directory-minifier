@@ -1,0 +1,61 @@
+{
+  "name": "directory-minifier",
+  "description": "A NodeJS tool to quickly minify directories recursively",
+  "version": "0.1.0",
+  "homepage": "https://github.com/thiagoh/directory-minifier",
+  "author": {
+    "name": "Thiago Andrade",
+    "email": "thiagoh@gmail.com",
+    "url": "https://about.me/thiagoh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagoh/directory-minifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thiagoh/directory-minifier/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "directory-minifier": "./bin/minify.js"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "dependencies": {
+    "q": "^1.4.1",
+    "uglify-js": "^2.6.1",
+    "underscore": "^1.8.3",
+    "co-work": "^0.4.2"
+  },
+
+  "keywords": [
+    "minify",
+    "minifier",
+    "directory",
+    "recursive",
+    "recursively",
+    "uglify",
+    "yui",
+    "minification",
+    "strip",
+    "path",
+    "file",
+    "pattern",
+    "source",
+    "map"
+  ]
+}
